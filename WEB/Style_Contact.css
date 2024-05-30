@@ -1,0 +1,225 @@
+.tittle4{
+    position: absolute;
+    top: 20%;
+    font-size: xx-large;
+    font-family:  sans-serif;
+    font-weight: bold;
+    left: 20%;
+  }
+  .MESSAGE1{
+    position: absolute;
+    top: 35%;
+    font-size: x-large;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif ;
+    left: 10%;
+  }
+
+
+.input-name{
+    display: flex;
+   position: absolute;
+   top: 40%;
+   left: 2% ;
+    min-height: 100vh;
+    background: linear-gradient(-135g, #c850c0, #4158d0);
+  }
+  .name{
+    width: 450px;
+    background: whitesmoke;
+    padding: 30px;
+    
+  }
+  .name .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+  
+  }
+  .name .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+  }
+  .input-data input:focus ~ label,
+  .input-data input:focus ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .name .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .name .input-data .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    
+  }
+  .name .input-data .underline ::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scale(0);
+    transition: transform 0.3s ease ;
+  
+  }
+  .input-data input:focus ~ .underline:before ,
+  .input-data input:focus ~ .underline:before{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .input-data input:focus ~ .underline:before ,
+  .input-data input:focus ~ .underline:before{
+    transform: scale(1);
+  }
+   .input-Email{
+    display: flex;
+   position: absolute; 
+   left: 1% ;
+    min-height: 100vh;
+    background: linear-gradient(-135g, #c850c0, #4158d0);
+  }
+  .Email{
+    width: 450px;
+    background: whitesmoke;
+    padding: 30px;
+  }
+  .Email .input-mail{
+    height: 40px;
+    width: 100%;
+    position: relative;
+  }
+  .Email .input-mail input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+  }
+  .input-mail input:focus ~ label,
+  .input-mail input:focus ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .Email .input-mail label{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .Email .input-mail .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    
+  }
+  .Email .input-mail .underline ::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scale(0);
+    transition: transform 0.3s ease ;
+  
+  }
+  .input-mail input:focus ~ .underline:before ,
+  .input-mail input:focus ~ .underline:before{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
+  }
+  .input-mail input:focus ~ .underline:before ,
+  .input-mail input:focus ~ .underline:before{
+    transform: scale(1);
+  }
+  /*MESSAGE*/
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.comment h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.comment p {
+  font-size: 14px;
+}
+
+#comment-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comment-form {
+  margin-bottom: 20px;
+}
+
+#comment-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#comment-form input[type="text"], #comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#comment-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#comment-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.list-comments {
+  margin-top: 20px;
+}
+
+.list-comments > div {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.loading {
+  display: none;
+  font-size: 14px;
+  color: #666;
+}
+
+.total-comment {
+  font-size: 14px;
+  color: #666;
+}

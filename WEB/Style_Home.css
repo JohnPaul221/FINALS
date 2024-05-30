@@ -1,0 +1,109 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+  }
+  .black-bar {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 65px;
+    background-color: black;
+    z-index: -1;
+  }
+   
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue ;
+  }
+  
+  .logo {
+    height: 70px;
+    margin-right: 10px; 
+  }
+  nav {
+   
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 4%;
+    right: 0%;
+    width: 100%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  
+  nav ul li {
+    padding: 0 10px; 
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #db2777;
+  }
+  .icon-container {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+  }
+  .fa-brands {
+    margin-right: 30px;
+  }
+  h2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+  }
+  #greeting {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;  
+  }
+  .fsTextType{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
+  p{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+  }
+  .png{
+   position: absolute;
+   right: 10%;
+
+  }
